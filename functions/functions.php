@@ -127,15 +127,14 @@ function get_posts()
                     <div class='row'>
                         <div class='col-sm-3'>
                         </div>
-
                         <div id='posts' class='col-sm-6'>
                             <div class='row'>
                                 <div class='col-sm-2'>
                                     <p><img src='images/$user_image' class='img-circle' width='100px' height='100px'></p>
                                 </div>
                                 <div class='col-sm-6'>
-                                    <h3><a style='text-decoration:none; cursor:pointer; color:#3897f0;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
-                                    <h4><small style='color:black;'>Updated a post on <strong>$post_date</strong></small></h4>
+                                    <h3><a style='text-decoration:none; cursor:pointer; color:rgb(44, 20, 66); font-weight:700;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
+                                    <h4><small style='color:white; font-size:16;'>Updated a post on <strong>$post_date</strong></small></h4>
                                 </div>
                                 <div class='col-sm-4'>
                                 </div>
@@ -145,7 +144,12 @@ function get_posts()
                                     <img id='posts-img' src='../imagepost/$upload_image' style='height:350px;'>
                                 </div>
                             </div><br>
-                            <a href='single.php?post_id=$post_id' style='float:right;'><button class='btn btn-info'>Comment</button></a><br>
+                            <a href='single.php?post_id=$post_id' style='float:right;'><button style='background: hsla(271, 100%, 9%, 0.6);
+                            border-color: hsla(271, 100%, 9%, 0.6);
+                            box-shadow: 4px 4px 10px rgb(54, 23, 83);
+                            font-size: 18px;
+                            border-radius: 5px;
+                            color: white;' class='btn btn-info'>Comment</button></a><br>
                         </div>
                         
                         <div class='col-sm-3'>
@@ -157,15 +161,14 @@ function get_posts()
                     <div class='row'>
                         <div class='col-sm-3'>
                         </div>
-
                         <div id='posts' class='col-sm-6'>
                             <div class='row'>
                                 <div class='col-sm-2'>
                                     <p><img src='images/$user_image' class='img-circle' width='100px' height='100px'></p>
                                 </div>
                                 <div class='col-sm-6'>
-                                    <h3><a style='text-decoration:none; cursor:pointer; color:#3897f0;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
-                                    <h4><small style='color:black;'>Updated a post on <strong>$post_date</strong></small></h4>
+                                    <h3><a style='text-decoration:none; cursor:pointer; color:rgb(44, 20, 66); font-weight:700;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
+                                    <h4><small style='color:white;'>Updated a post on <strong>$post_date</strong></small></h4>
                                 </div>
                                 <div class='col-sm-4'>
                                 </div>
@@ -188,15 +191,14 @@ function get_posts()
                     <div class='row'>
                         <div class='col-sm-3'>
                         </div>
-
                         <div id='posts' class='col-sm-6'>
                             <div class='row'>
                                 <div class='col-sm-2'>
                                     <p><img src='images/$user_image' class='img-circle' width='100px' height='100px'></p>
                                 </div>
                                 <div class='col-sm-6'>
-                                    <h3><a style='text-decoration:none; cursor:pointer; color:#3897f0;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
-                                    <h4><small style='color:black;'>Updated a post on <strong>$post_date</strong></small></h4>
+                                    <h3><a style='text-decoration:none; cursor:pointer; color:rgb(44, 20, 66); font-weight:700;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
+                                    <h4><small style='color:white;'>Updated a post on <strong>$post_date</strong></small></h4>
                                 </div>
                                 <div class='col-sm-4'>
                                 </div>
@@ -293,15 +295,14 @@ function single_post()
                 <div class='row'>
                     <div class='col-sm-3'>
                     </div>
-
                     <div id='posts' class='col-sm-6'>
                         <div class='row'>
                             <div class='col-sm-2'>
                                 <p><img src='images/$user_image' class='img-circle' width='100px' height='100px'></p>
                             </div>
                             <div class='col-sm-6'>
-                                <h3><a style='text-decoration:none; cursor:pointer; color:#3897f0;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
-                                <h4><small style='color:black;'>Updated a post on <strong>$post_date</strong></small></h4>
+                                <h3><a style='text-decoration:none; cursor:pointer; color:rgb(44, 20, 66); font-weight:700;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
+                                <h4><small style='color:white;'>Updated a post on <strong>$post_date</strong></small></h4>
                             </div>
                             <div class='col-sm-4'>
                             </div>
@@ -325,15 +326,14 @@ function single_post()
                 <div class='row'>
                     <div class='col-sm-3'>
                     </div>
-
                     <div id='posts' class='col-sm-6'>
                         <div class='row'>
                             <div class='col-sm-2'>
                                 <p><img src='images/$user_image' class='img-circle' width='100px' height='100px'></p>
                             </div>
                             <div class='col-sm-6'>
-                                <h3><a style='text-decoration:none; cursor:pointer; color:#3897f0;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
-                                <h4><small style='color:black;'>Updated a post on <strong>$post_date</strong></small></h4>
+                                <h3><a style='text-decoration:none; cursor:pointer; color:rgb(44, 20, 66); font-weight:700;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
+                                <h4><small style='color:white;'>Updated a post on <strong>$post_date</strong></small></h4>
                             </div>
                             <div class='col-sm-4'>
                             </div>
@@ -358,15 +358,14 @@ function single_post()
                 <div class='row'>
                     <div class='col-sm-3'>
                     </div>
-
                     <div id='posts' class='col-sm-6'>
                         <div class='row'>
                             <div class='col-sm-2'>
                                 <p><img src='images/$user_image' class='img-circle' width='100px' height='100px'></p>
                             </div>
                             <div class='col-sm-6'>
-                                <h3><a style='text-decoration:none; cursor:pointer; color:#3897f0;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
-                                <h4><small style='color:black;'>Updated a post on <strong>$post_date</strong></small></h4>
+                                <h3><a style='text-decoration:none; cursor:pointer; color:rgb(44, 20, 66); font-weight:700;' href='user_profile.php?u_id=$user_id'>$user_name</h3>
+                                <h4><small style='color:white;'>Updated a post on <strong>$post_date</strong></small></h4>
                             </div>
                             <div class='col-sm-4'>
                             </div>
@@ -388,7 +387,6 @@ function single_post()
 
             include ("comments.php");
            echo "
-
                 <div class='row'>
                     <div class='col-md-6 col md-offset-3'>
                         <div class='panel panel-info'>
@@ -404,7 +402,6 @@ function single_post()
                         </div>
                     </div>
                 </div>
-
            ";
 
            if(isset($_POST['reply']))
@@ -435,7 +432,7 @@ function search_user()
 {
     global $con;
 
-    if(isset($_GET['search_user_btn']))    
+    if(isset($_GET['search_user_btn']))
     {
         $search_query = htmlentities($_GET['search-user']);
         $get_user = "select * from users where f_name like '%$search_query%' OR l_name like '%$search_query%' OR user_name like '%$search_query%'";
@@ -467,7 +464,7 @@ function search_user()
                         <img src='users/$user_image' width='150px' height='140px' title='$username' style-' float:left; , margin:1px;'></a>
                     </di-<br><br>v>
                     <div class='col-sm-6'>
-                        <a style='text-decoration:none; cursor:pointer; color:#3897f0;' href='user_profile.php?u_id=$user_id=$user_id'>
+                        <a style='text-decoration:none; cursor:pointer; color:rgb(44, 20, 66);' href='user_profile.php?u_id=$user_id=$user_id'>
                         <strong> <h2>$f_name $l_name</h2></strong>
                         </a>
                     </div>
@@ -476,7 +473,6 @@ function search_user()
                 </div><br><br>
             </div>
         </div>
-
         ";
     }
 }
